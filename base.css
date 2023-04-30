@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #eee;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #8bc34a;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Estilos del menú de navegación */
+nav {
+  background-color: #f9a825;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos del contenido principal */
+main {
+  width: 100%;
+  float: left;
+}
+
+section {
+  background-color: #fff176;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+section p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estilos de la barra lateral */
+aside {
+  background-color: #ffb74d;
+  float: right;
+  width: 250px;
+  padding: 20px;
+}
+
+aside h2 {
+  font-size: 24px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+aside p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#info-adicional {
+  background-color: #F1F2C0;
+  float: left;
+  margin: 0 25px 0 0;
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
